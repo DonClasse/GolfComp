@@ -1,0 +1,52 @@
+﻿<Window x:Class="GolfComp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GolfComp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="banaNamnBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="38,69,0,0"/>
+        <Button x:Name="BanaSave" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="407,264,0,0" Click="BanaSave_Click"/>
+        <ComboBox x:Name="AllBanNamnBox" HorizontalAlignment="Left" Margin="317,69,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox_SelectionChanged"/>
+        <Label x:Name="label" Content="Namn på banan" HorizontalAlignment="Left" Margin="34,47,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="hal1box" HorizontalAlignment="Left" Height="23" Margin="38,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal2box" HorizontalAlignment="Left" Height="23" Margin="72,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal3box" HorizontalAlignment="Left" Height="23" Margin="106,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal4box" HorizontalAlignment="Left" Height="23" Margin="140,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal5box" HorizontalAlignment="Left" Height="23" Margin="174,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal6box" HorizontalAlignment="Left" Height="23" Margin="208,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal7box" HorizontalAlignment="Left" Height="23" Margin="242,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal8box" HorizontalAlignment="Left" Height="23" Margin="276,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal9box" HorizontalAlignment="Left" Height="23" Margin="310,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal10box" HorizontalAlignment="Left" Height="23" Margin="38,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal11box" HorizontalAlignment="Left" Height="23" Margin="72,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal12box" HorizontalAlignment="Left" Height="23" Margin="106,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal13box" HorizontalAlignment="Left" Height="23" Margin="140,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal14box" HorizontalAlignment="Left" Height="23" Margin="174,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal15box" HorizontalAlignment="Left" Height="23" Margin="208,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal16box" HorizontalAlignment="Left" Height="23" Margin="242,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal17box" HorizontalAlignment="Left" Height="23" Margin="276,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <TextBox x:Name="hal18box" HorizontalAlignment="Left" Height="23" Margin="310,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="35" RenderTransformOrigin="-0.038,0.127"/>
+        <Label x:Name="label1" Content="1" HorizontalAlignment="Left" Margin="47,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="2" HorizontalAlignment="Left" Margin="80,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy1" Content="3" HorizontalAlignment="Left" Margin="117,104,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.148,-0.158"/>
+        <Label x:Name="label1_Copy2" Content="4" HorizontalAlignment="Left" Margin="150,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy3" Content="5" HorizontalAlignment="Left" Margin="183,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy4" Content="6" HorizontalAlignment="Left" Margin="218,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy5" Content="7" HorizontalAlignment="Left" Margin="252,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy6" Content="8" HorizontalAlignment="Left" Margin="286,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy7" Content="9" HorizontalAlignment="Left" Margin="319,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy8" Content="10" HorizontalAlignment="Left" Margin="42,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy9" Content="11" HorizontalAlignment="Left" Margin="75,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy10" Content="12" HorizontalAlignment="Left" Margin="112,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.148,-0.158"/>
+        <Label x:Name="label1_Copy11" Content="13" HorizontalAlignment="Left" Margin="145,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy12" Content="14" HorizontalAlignment="Left" Margin="178,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy13" Content="15" HorizontalAlignment="Left" Margin="213,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy14" Content="16" HorizontalAlignment="Left" Margin="247,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy15" Content="17" HorizontalAlignment="Left" Margin="281,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy16" Content="18" HorizontalAlignment="Left" Margin="314,149,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
