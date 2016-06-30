@@ -9,7 +9,7 @@ namespace GolfComp
     
     class bana
     {
-        public static List<string> BanName = new List<string>();
+        public static List<string> BanName;
         
         public static void AddName(string namn)
         {
@@ -17,7 +17,7 @@ namespace GolfComp
             BanName.Add(namn);
             
             
-            //hej
+            
         }
 
      
